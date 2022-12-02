@@ -4,7 +4,7 @@
 
 @layer components {
     .App {
-        @apply relative w-screen h-screen bg-gradient-to-r from-[#00d2ff] to-[#3a7bd5] flex items-center justify-center;
+        @apply relative w-screen h-screen bg-gradient-to-b md:bg-gradient-to-br from-[#3a7bd5] to-[#2e007a] flex items-center justify-center;
     }
 
     .btn-primary {
