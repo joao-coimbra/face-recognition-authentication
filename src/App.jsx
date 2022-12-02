@@ -15,8 +15,8 @@ function App() {
 						reconhecimento facial.
 					</span>
 					<div className="space-y-3 md:space-y-0 md:space-x-3">
-                        <ButtonAccess text="Entrar no painel" onClick={window.authenticateUser} />
-                        <ButtonAccess text="Faça seu cadastro" onClick={window.enrollNewUser} />
+                        <ButtonAccess text="Entrar" onClick={window.authenticateUser} />
+                        <ButtonAccess text="Cadastre-se" onClick={window.enrollNewUser} />
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ function App() {
 
 const ButtonAccess = ({text, onClick}) => {
     return (
-        <button className="btn-primary bg-sky-400 hover:bg-sky-300" onClick={() => onClick()}>
+        <button className="btn-primary bg-gradient-to-br from-[#00d2ff] to-[#3a7bd5] duration-300 hover:from-[#3a7bd5] hover:to-[#00d2ff] font-semibold" onClick={() => onClick()}>
             {text}
         </button>
     )
